@@ -1,0 +1,6 @@
+id: example_mod
+name: Example Mod
+version: 1.0
+author: Zatherz
+description: An example mod
+dll: SemiExample.dll
