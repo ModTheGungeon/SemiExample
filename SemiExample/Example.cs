@@ -8,6 +8,11 @@ namespace SemiExample {
 
         public override void Loaded() {
             Logger.Info("Example mod loaded!");
+
+            Logger.Debug($"magic_lamp: {Gungeon.Items["magic_lamp"]}");
+            Logger.Debug($"gungeon:magic_lamp: {Gungeon.Items["gungeon:magic_lamp"]}");
+            Logger.Debug($"megalich: {Gungeon.Enemies["megalich"]}");
+            Logger.Debug($"gungeon:megalich: {Gungeon.Enemies["gungeon:megalich"]}");
         }
     }
 }
